@@ -1,0 +1,651 @@
+{
+	"projectFormatVersion": 1,
+	"savedWithRelease": 23404,
+	"name": "Corona Convicts",
+	"runtime": "c3",
+	"useWorker": "auto",
+	"bundleAddons": false,
+	"usedAddons": [
+		{
+			"type": "plugin",
+			"id": "Sprite",
+			"name": "Sprite",
+			"author": "Scirra",
+			"version": "r234.4",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "TiledBg",
+			"name": "Tiled Background",
+			"author": "Scirra",
+			"version": "r234.4",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Tilemap",
+			"name": "Tilemap",
+			"author": "Scirra",
+			"version": "r234.4",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Particles",
+			"name": "Particles",
+			"author": "Scirra",
+			"version": "r234.4",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Keyboard",
+			"name": "Keyboard",
+			"author": "Scirra",
+			"version": "r234.4",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Touch",
+			"name": "Touch",
+			"author": "Scirra",
+			"version": "r234.4",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Text",
+			"name": "Text",
+			"author": "Scirra",
+			"version": "r234.4",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "sliderbar",
+			"name": "Slider bar",
+			"author": "Scirra",
+			"version": "r234.4",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Audio",
+			"name": "Audio",
+			"author": "Scirra",
+			"version": "r234.4",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "PlatformInfo",
+			"name": "Platform info",
+			"author": "Scirra",
+			"version": "r234.4",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Button",
+			"name": "Button",
+			"author": "Scirra",
+			"version": "r234.4",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Spritefont2",
+			"name": "Sprite font",
+			"author": "Scirra",
+			"version": "r234.4",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "iframe",
+			"name": "iframe",
+			"author": "Scirra",
+			"version": "r234.4",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "solid",
+			"name": "Solid",
+			"author": "Scirra",
+			"version": "r234.4",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Platform",
+			"name": "Platform",
+			"author": "Scirra",
+			"version": "r234.4",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Flash",
+			"name": "Flash",
+			"author": "Scirra",
+			"version": "r234.4",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "bound",
+			"name": "Bound to layout",
+			"author": "Scirra",
+			"version": "r234.4",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Sin",
+			"name": "Sine",
+			"author": "Scirra",
+			"version": "r234.4",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "scrollto",
+			"name": "Scroll To",
+			"author": "Scirra",
+			"version": "r234.4",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Physics",
+			"name": "Physics",
+			"author": "Scirra",
+			"version": "r234.4",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Bullet",
+			"name": "Bullet",
+			"author": "Scirra",
+			"version": "r234.4",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Rotate",
+			"name": "Rotate",
+			"author": "Scirra",
+			"version": "r234.4",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Orbit",
+			"name": "Orbit",
+			"author": "Scirra",
+			"version": "r234.4",
+			"bundled": false
+		}
+	],
+	"uniqueId": "4mpouyn02bz",
+	"objectTypes": {
+		"items": [
+			"Keyboard",
+			"Touch",
+			"Text",
+			"txtGUI",
+			"SliderBar",
+			"Audio",
+			"PlatformInfo",
+			"Button",
+			"Livesfont",
+			"Enemy4",
+			"SpriteFont2",
+			"Shieldsmoke",
+			"level_complete",
+			"Music2",
+			"paused2",
+			"Virus2",
+			"Enemy3",
+			"wavel3",
+			"bulkheadwallsback",
+			"bulkheadwallspipes",
+			"cols",
+			"TiledBackground33",
+			"TiledBackground34",
+			"Acid",
+			"TiledBackground35",
+			"TiledBackground36",
+			"TiledBackground37",
+			"TiledBackground38",
+			"Spike",
+			"explosion",
+			"Barrel",
+			"TiledBackground39",
+			"TiledBackground40",
+			"TiledBackground41",
+			"TiledBackground42",
+			"BGTile",
+			"Box",
+			"Saw",
+			"Barrel2",
+			"Switch",
+			"Switch2",
+			"Saw2",
+			"Enemy5",
+			"—Pngtree—vaccineAndInjectionSyringeFor_",
+			"TiledBackground43",
+			"imgvirus",
+			"imgvirus2",
+			"imghero",
+			"imggolem",
+			"imgvaccine",
+			"Text2",
+			"Text3",
+			"iframe"
+		],
+		"subfolders": [
+			{
+				"items": [
+					"BG2",
+					"L2T1",
+					"L2T2",
+					"L2T3",
+					"L2T4",
+					"L2T5",
+					"L2T6",
+					"L2T7",
+					"L2T8",
+					"L2T9",
+					"L2T10",
+					"L2T11",
+					"L2T12",
+					"L211",
+					"Bone",
+					"Bone2",
+					"Bush",
+					"Bush2",
+					"Cactus",
+					"Cactus2",
+					"Cactus3",
+					"Crate2",
+					"Golem_L2_1",
+					"Golem_L2_2",
+					"Grass",
+					"Grass2",
+					"SignArrow",
+					"Skeleton",
+					"Sprite",
+					"Stone",
+					"StoneBlock",
+					"Tree"
+				],
+				"subfolders": [],
+				"name": "Level 2"
+			},
+			{
+				"items": [
+					"BG",
+					"BigDot",
+					"Crate",
+					"Dot",
+					"Enemy1",
+					"LeftArrow",
+					"TiledBackground",
+					"TiledBackground10",
+					"TiledBackground11",
+					"TiledBackground12",
+					"TiledBackground13",
+					"TiledBackground14",
+					"TiledBackground15",
+					"TiledBackground16",
+					"TiledBackground17",
+					"TiledBackground18",
+					"TiledBackground19",
+					"TiledBackground2",
+					"TiledBackground20",
+					"TiledBackground21",
+					"TiledBackground3",
+					"TiledBackground4",
+					"TiledBackground5",
+					"TiledBackground6",
+					"TiledBackground7",
+					"TiledBackground8",
+					"TiledBackground9",
+					"Tilemap",
+					"Tilemap2",
+					"Monstersmoke",
+					"spikes",
+					"RightArrow",
+					"UpArrow",
+					"Particles",
+					"ArrowSign",
+					"Bush3",
+					"Bush4",
+					"DeadBush",
+					"Skeleton2",
+					"TombStone",
+					"TombStone2",
+					"Tree2"
+				],
+				"subfolders": [],
+				"name": "Level 1"
+			},
+			{
+				"items": [
+					"BG3",
+					"L3T7",
+					"L3T1",
+					"L3T2",
+					"L3T3",
+					"L3T4",
+					"L3T5",
+					"L3T6",
+					"Crate3",
+					"Crystal",
+					"IceBox",
+					"Igloo",
+					"L3T10",
+					"L3T8",
+					"L3T9",
+					"L3Wave",
+					"Sign_",
+					"Sign_2",
+					"SnowMan",
+					"Stone2",
+					"TiledBackground22",
+					"Tree_",
+					"Tree_2"
+				],
+				"subfolders": [],
+				"name": "Level 3"
+			},
+			{
+				"items": [
+					"BG4",
+					"Bush5",
+					"Bush6",
+					"Bush7",
+					"Crate4",
+					"L4T1",
+					"L4T2",
+					"L4T3",
+					"L4T4",
+					"L4T5",
+					"L4T6",
+					"L4T7",
+					"L4T8",
+					"Mushroom_",
+					"Mushroom_2",
+					"Sign_3",
+					"Sign_4",
+					"Stone3",
+					"TiledBackground23",
+					"TiledBackground24",
+					"TiledBackground25",
+					"TiledBackground26",
+					"TiledBackground27",
+					"TiledBackground28",
+					"TiledBackground29",
+					"TiledBackground30",
+					"TiledBackground31",
+					"TiledBackground32",
+					"Tree_3",
+					"Tree_4",
+					"Tree_5"
+				],
+				"subfolders": [],
+				"name": "Level 4"
+			},
+			{
+				"items": [
+					"main",
+					"Music",
+					"Play_button",
+					"Home",
+					"main2",
+					"music_muted",
+					"bg7",
+					"Botton_LevelSelection",
+					"L_Desert",
+					"L_Forest",
+					"L_Grave",
+					"L_ModernLab",
+					"L_Winter",
+					"levels",
+					"Button_game",
+					"Button_info"
+				],
+				"subfolders": [],
+				"name": "Main Menu"
+			},
+			{
+				"items": [
+					"Attackbutton",
+					"Jumpbutton",
+					"Leftbutton",
+					"Rightbutton",
+					"Hero",
+					"Idle__",
+					"Kunai",
+					"Vaccine",
+					"Virus1"
+				],
+				"subfolders": [],
+				"name": "Global"
+			}
+		]
+	},
+	"autosaveData": null,
+	"containers": [],
+	"families": {
+		"items": [
+			"Tiles"
+		],
+		"subfolders": []
+	},
+	"layouts": {
+		"items": [
+			"Main Menu",
+			"Level 1",
+			"Level 2",
+			"Level 3",
+			"Level 4",
+			"Level 5",
+			"Level Selection",
+			"Level Complete",
+			"Info",
+			"How to Play"
+		],
+		"subfolders": []
+	},
+	"eventSheets": {
+		"items": [
+			"L2 Event sheet 2",
+			"L3 Event sheet 3",
+			"Main menu Event sheet",
+			"L1 Event sheet 1",
+			"L4 Event sheet 4",
+			"L5 Event sheet 5",
+			"Level Selection ES"
+		],
+		"subfolders": []
+	},
+	"rootFileFolders": {
+		"script": {
+			"items": [],
+			"subfolders": []
+		},
+		"sound": {
+			"items": [],
+			"subfolders": []
+		},
+		"music": {
+			"items": [
+				{
+					"name": "Actium - I Need You (1).mp3",
+					"type": "audio/mpeg",
+					"sid": 175125367741798
+				}
+			],
+			"subfolders": []
+		},
+		"video": {
+			"items": [],
+			"subfolders": []
+		},
+		"font": {
+			"items": [
+				{
+					"name": "akaya-kanadaka-v1-latin-regular.eot",
+					"type": "application/vnd.ms-fontobject",
+					"sid": 262463642711896
+				},
+				{
+					"name": "akaya-kanadaka-v1-latin-regular.ttf",
+					"type": "application/font-sfnt",
+					"sid": 214902492675496
+				},
+				{
+					"name": "akaya-kanadaka-v1-latin-regular.woff",
+					"type": "application/font-woff",
+					"sid": 988961154269818
+				},
+				{
+					"name": "akaya-kanadaka-v1-latin-regular.woff2",
+					"type": "font/woff2",
+					"sid": 933718325308455
+				}
+			],
+			"subfolders": []
+		},
+		"icon": {
+			"items": [
+				{
+					"name": "loading-logo.png",
+					"type": "image/png",
+					"sid": 116977524880297,
+					"icon-info": {
+						"purpose": "loading-logo"
+					}
+				},
+				{
+					"name": "icon-64.png",
+					"type": "image/png",
+					"sid": 511339002528810,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-128.png",
+					"type": "image/png",
+					"sid": 401761331506129,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-256.png",
+					"type": "image/png",
+					"sid": 168321233868122,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-16.png",
+					"type": "image/png",
+					"sid": 357144263674621,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-512.png",
+					"type": "image/png",
+					"sid": 716384776602620,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-32.png",
+					"type": "image/png",
+					"sid": 675853278375704,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				}
+			],
+			"subfolders": []
+		},
+		"general": {
+			"items": [],
+			"subfolders": []
+		}
+	},
+	"timelines": {
+		"items": [],
+		"subfolders": [
+			{
+				"items": [],
+				"subfolders": []
+			}
+		]
+	},
+	"properties": {
+		"description": "Game",
+		"version": "1.0.0.0",
+		"author": "Tech Phantom ",
+		"authorEmail": "techphantom@gmail.com",
+		"authorWebsite": "",
+		"appId": "com.corona.game1",
+		"pixelRounding": false,
+		"useLoaderLayout": true,
+		"fullscreenMode": "letterbox-scale",
+		"fullscreenQuality": "high",
+		"viewportFit": "auto",
+		"backgroundColor": [
+			0,
+			0,
+			0,
+			0
+		],
+		"splashColor": [
+			0,
+			0,
+			0,
+			0
+		],
+		"useThemeColor": false,
+		"themeColor": [
+			1,
+			1,
+			1,
+			0
+		],
+		"useHighDpi": true,
+		"orientations": "landscape",
+		"enableWebGL": true,
+		"gpuPreference": "high-performance",
+		"scriptsType": "module",
+		"framerateMode": "vsync",
+		"compositingMode": "standard",
+		"sampling": "trilinear",
+		"downscaling": "medium",
+		"maxSpriteSheetSize": 2048,
+		"loaderStyle": "progress-logo",
+		"preloadSounds": true,
+		"clearBackground": true,
+		"enhancedAccelerationPrecision": true,
+		"cordovaiOSScheme": "app"
+	},
+	"viewportWidth": 1280,
+	"viewportHeight": 720,
+	"firstLayout": "Main Menu"
+}
