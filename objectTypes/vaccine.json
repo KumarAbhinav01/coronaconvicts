@@ -1,0 +1,49 @@
+{
+	"name": "Vaccine",
+	"plugin-id": "Sprite",
+	"sid": 598426782442038,
+	"isGlobal": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 955,
+						"height": 1031,
+						"originX": 0.5099476439790576,
+						"originY": 0.4772065955383123,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 852821,
+						"collisionPoly": {
+							"points": [
+								0.20837696335078534,
+								0.027158098933074686,
+								0.6397905759162302,
+								0.23666343355965078,
+								1,
+								0.9311348205625608,
+								0.13298429319371716,
+								0.9311348205625608
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 750833632616668,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

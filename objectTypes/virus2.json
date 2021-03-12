@@ -1,0 +1,55 @@
+{
+	"name": "Virus2",
+	"plugin-id": "Sprite",
+	"sid": 856269869438808,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 546455808229680
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 2683,
+						"height": 2626,
+						"originX": 0.5,
+						"originY": 0.503998476770754,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8942165,
+						"collisionPoly": {
+							"points": [
+								0.07901602683563175,
+								0.10967250571210967,
+								0.9030935519940362,
+								0.12033511043412039,
+								0.928438315318673,
+								0.8811881188118811,
+								0.11926947446887813,
+								0.8888042650418884
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 373132303406236,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
