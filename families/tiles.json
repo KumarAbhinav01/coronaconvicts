@@ -1,0 +1,12 @@
+{
+	"name": "Tiles",
+	"plugin-id": "TiledBg",
+	"sid": 210456643426124,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"members": [
+		"TiledBackground5",
+		"TiledBackground9"
+	]
+}
