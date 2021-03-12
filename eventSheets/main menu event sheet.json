@@ -1,0 +1,346 @@
+{
+	"name": "Main menu Event sheet",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "Music",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 640283620441623
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 536752291813383
+				}
+			],
+			"actions": [],
+			"sid": 954788254921997,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 133592213266299,
+							"parameters": {
+								"variable": "Music"
+							}
+						}
+					],
+					"actions": [],
+					"sid": 510469565413608
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 826584706317753,
+							"parameters": {
+								"variable": "Music"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 450647472463919,
+							"parameters": {
+								"audio-file": "Actium - I Need You (1)",
+								"loop": "looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 332785430418205,
+							"parameters": {
+								"variable": "Music",
+								"value": "true"
+							}
+						}
+					],
+					"sid": 883044946465529
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 962012662137941,
+					"parameters": {
+						"object": "Music"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-silent",
+					"objectClass": "Audio",
+					"sid": 800904875938172,
+					"parameters": {
+						"mode": "toggle-silent"
+					}
+				}
+			],
+			"sid": 748066898829875
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 424553923069569,
+					"parameters": {
+						"object": "Play_button"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 192084135975717,
+					"parameters": {
+						"layout": "Level 1"
+					}
+				}
+			],
+			"sid": 610027263326270
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 177411324296969,
+					"parameters": {
+						"object": "Home"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 722324606125773,
+					"parameters": {
+						"layout": "Main Menu"
+					}
+				}
+			],
+			"sid": 909044177160178
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 802233510518615,
+					"parameters": {
+						"object": "L_Grave"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 597289763531790,
+					"parameters": {
+						"layout": "Level 1"
+					}
+				}
+			],
+			"sid": 772378941733578
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 807461622885531,
+					"parameters": {
+						"object": "L_Desert"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 535627622612063,
+					"parameters": {
+						"layout": "Level 2"
+					}
+				}
+			],
+			"sid": 274449311847116
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 805925517138964,
+					"parameters": {
+						"object": "L_Winter"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 781523230536351,
+					"parameters": {
+						"layout": "Level 3"
+					}
+				}
+			],
+			"sid": 168698828553755
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 164428585660271,
+					"parameters": {
+						"object": "L_Forest"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 113271186173685,
+					"parameters": {
+						"layout": "Level 4"
+					}
+				}
+			],
+			"sid": 548255453629575
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 587985396070266,
+					"parameters": {
+						"object": "L_ModernLab"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 640366987210227,
+					"parameters": {
+						"layout": "Level 5"
+					}
+				}
+			],
+			"sid": 244669396109975
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 527688348184143,
+					"parameters": {
+						"object": "Botton_LevelSelection"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 743590440221330,
+					"parameters": {
+						"layout": "Level Selection"
+					}
+				}
+			],
+			"sid": 833692689520070
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 115822160514924,
+					"parameters": {
+						"object": "Button_game"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 739303630201151,
+					"parameters": {
+						"layout": "How to Play"
+					}
+				}
+			],
+			"sid": 581249908246207
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 487645856921632,
+					"parameters": {
+						"object": "Button_info"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 581831927795837,
+					"parameters": {
+						"layout": "Info"
+					}
+				}
+			],
+			"sid": 494535036905741
+		}
+	],
+	"sid": 998226941202819
+}

@@ -1,0 +1,174 @@
+{
+	"name": "Level Selection ES",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 577889783735282,
+					"parameters": {
+						"object": "Home"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 127988194884854,
+					"parameters": {
+						"layout": "Main Menu"
+					}
+				}
+			],
+			"sid": 555985931973127
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 176761702965060,
+					"parameters": {
+						"object": "L_Grave"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 590504763069342,
+					"parameters": {
+						"layout": "Level 1"
+					}
+				}
+			],
+			"sid": 190385982367829
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 751067469827301,
+					"parameters": {
+						"object": "L_Desert"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 687802432735913,
+					"parameters": {
+						"layout": "Level 2"
+					}
+				}
+			],
+			"sid": 732588444242976
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 837245079007274,
+					"parameters": {
+						"object": "L_Winter"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 631716421799629,
+					"parameters": {
+						"layout": "Level 3"
+					}
+				}
+			],
+			"sid": 320977032935664
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 406095180323804,
+					"parameters": {
+						"object": "L_Forest"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 790347787627758,
+					"parameters": {
+						"layout": "Level 4"
+					}
+				}
+			],
+			"sid": 725415538968109
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 105488091084670,
+					"parameters": {
+						"object": "L_ModernLab"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 486261762866548,
+					"parameters": {
+						"layout": "Level 5"
+					}
+				}
+			],
+			"sid": 825884826859038
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 430093248610109,
+					"parameters": {
+						"object": "Music"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-silent",
+					"objectClass": "Audio",
+					"sid": 724533245214667,
+					"parameters": {
+						"mode": "toggle-silent"
+					}
+				}
+			],
+			"sid": 652778196731556
+		}
+	],
+	"sid": 551022423996117
+}

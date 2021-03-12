@@ -1,0 +1,1562 @@
+{
+	"name": "L5 Event sheet 5",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 840345591198061
+				}
+			],
+			"actions": [],
+			"sid": 593594944796717,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-enabled",
+							"objectClass": "Saw",
+							"sid": 106504160354093,
+							"behaviorType": "Rotate"
+						}
+					],
+					"actions": [],
+					"sid": 734493811751544
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-enabled",
+							"objectClass": "Saw2",
+							"sid": 103374441875632,
+							"behaviorType": "Orbit"
+						}
+					],
+					"actions": [],
+					"sid": 875186052224728
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-enabled",
+							"objectClass": "Saw2",
+							"sid": 256847768290987,
+							"behaviorType": "Rotate"
+						}
+					],
+					"actions": [],
+					"sid": 749021367028014
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 248476087951222
+				}
+			],
+			"actions": [],
+			"sid": 167264838262228,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Livesfont",
+							"sid": 454895086261892,
+							"parameters": {
+								"instance-variable": "Lives",
+								"comparison": 0,
+								"value": "\"number\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-text",
+							"objectClass": "Livesfont",
+							"sid": 728339805539958,
+							"parameters": {
+								"text": "Lives"
+							}
+						}
+					],
+					"sid": 545005444731450
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 891838916254308,
+					"parameters": {
+						"variable": "Lives",
+						"comparison": 3,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Hero",
+					"sid": 199007303437692,
+					"parameters": {
+						"animation": "\"Dead\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 709173289478730,
+					"parameters": {
+						"seconds": "0.5"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Hero",
+					"sid": 232840846936724
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 276124587212673,
+					"parameters": {
+						"seconds": "0.5"
+					}
+				},
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 903609353642552
+				},
+				{
+					"id": "reset-global-variables",
+					"objectClass": "System",
+					"sid": 948440599910955
+				}
+			],
+			"sid": 885971460236735
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 543204130730570,
+					"parameters": {
+						"variable": "Levelscore",
+						"comparison": 5,
+						"value": "5"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 563204077708791,
+					"parameters": {
+						"layout": "Level Complete"
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 500112097847384,
+					"parameters": {
+						"variable": "Levelscore",
+						"value": "0"
+					}
+				}
+			],
+			"sid": 104321708392252
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-moved",
+					"objectClass": "Hero",
+					"sid": 594888766894298,
+					"behaviorType": "Platform"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Hero",
+					"sid": 511232592696639,
+					"parameters": {
+						"animation": "\"Walking\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 221816149091450
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-stopped",
+					"objectClass": "Hero",
+					"sid": 973511806002966,
+					"behaviorType": "Platform"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Hero",
+					"sid": 663144972746393,
+					"parameters": {
+						"animation": "\"Standing\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 483499168378306
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-jump",
+					"objectClass": "Hero",
+					"sid": 185245339380486,
+					"behaviorType": "Platform"
+				},
+				{
+					"id": "is-moving",
+					"objectClass": "Hero",
+					"sid": 149896922109802,
+					"behaviorType": "Platform"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Hero",
+					"sid": 803976563291015,
+					"parameters": {
+						"animation": "\"Jump\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "Hero",
+					"sid": 697144115465407,
+					"parameters": {
+						"animation": "\"Walking\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 648413631324566
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-stopped",
+					"objectClass": "Hero",
+					"sid": 210112186698065,
+					"behaviorType": "Platform"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Hero",
+					"sid": 605735743755460,
+					"parameters": {
+						"animation": "\"Standing\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 217552329491331
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 802254264679103,
+					"parameters": {
+						"key": 37
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "Hero",
+					"sid": 350685006503736,
+					"behaviorType": "Platform",
+					"parameters": {
+						"control": "left"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "Hero",
+					"sid": 918714859511752,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 810504107949237
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 670982907873393,
+					"parameters": {
+						"key": 39
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "Hero",
+					"sid": 408471188065667,
+					"behaviorType": "Platform",
+					"parameters": {
+						"control": "right"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "Hero",
+					"sid": 366454302902653,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 381722072452114
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 563023271487458,
+					"parameters": {
+						"key": 40
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "Hero",
+					"sid": 512865829286638,
+					"behaviorType": "Platform",
+					"parameters": {
+						"control": "right"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "Hero",
+					"sid": 136108379907506,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 637127918699384
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 786183453900292,
+					"parameters": {
+						"key": 38
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "Hero",
+					"sid": 766145333374816,
+					"behaviorType": "Platform",
+					"parameters": {
+						"control": "jump"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "Hero",
+					"sid": 784077040189697,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 495528694391248
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 924048804541829,
+					"parameters": {
+						"key": 65
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Hero",
+					"sid": 701920602449716,
+					"parameters": {
+						"animation": "\"Attacking\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Hero",
+					"sid": 390515001467270,
+					"parameters": {
+						"object": "Kunai",
+						"layer": "0",
+						"image-point": "1",
+						"create-hierarchy": false
+					}
+				}
+			],
+			"sid": 956785654522611
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-touching-object",
+					"objectClass": "Touch",
+					"sid": 840953513884154,
+					"parameters": {
+						"object": "Leftbutton"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "Hero",
+					"sid": 251710942576787,
+					"behaviorType": "Platform",
+					"parameters": {
+						"control": "left"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "Hero",
+					"sid": 226455462633088,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 295148779412830
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-touching-object",
+					"objectClass": "Touch",
+					"sid": 909057798906118,
+					"parameters": {
+						"object": "Rightbutton"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "Hero",
+					"sid": 821905544060704,
+					"behaviorType": "Platform",
+					"parameters": {
+						"control": "right"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "Hero",
+					"sid": 508584896471563,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 594457130878455
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-touching-object",
+					"objectClass": "Touch",
+					"sid": 595494425872506,
+					"parameters": {
+						"object": "Jumpbutton"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "Hero",
+					"sid": 783531748246520,
+					"behaviorType": "Platform",
+					"parameters": {
+						"control": "jump"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "Hero",
+					"sid": 860865320426371,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "Hero",
+					"sid": 140693840742248,
+					"parameters": {
+						"animation": "\"Jump\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 702360037129176
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 716798154629549,
+					"parameters": {
+						"object": "Attackbutton"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Hero",
+					"sid": 285594520730146,
+					"parameters": {
+						"animation": "\"Attacking\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Hero",
+					"sid": 847762653521688,
+					"parameters": {
+						"object": "Kunai",
+						"layer": "0",
+						"image-point": "1",
+						"create-hierarchy": false
+					}
+				}
+			],
+			"sid": 999554056136275
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Hero",
+					"sid": 656407260105703,
+					"parameters": {
+						"object": "Enemy5"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "flash",
+					"objectClass": "Hero",
+					"sid": 937569836056819,
+					"behaviorType": "Flash",
+					"parameters": {
+						"on-time": "0.1",
+						"off-time": "0.1",
+						"duration": "0.5"
+					}
+				},
+				{
+					"id": "subtract-from-eventvar",
+					"objectClass": "System",
+					"sid": 104281797982571,
+					"parameters": {
+						"variable": "Lives",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 596194386925336
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Hero",
+					"sid": 893999550960871,
+					"parameters": {
+						"object": "Acid"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "flash",
+					"objectClass": "Hero",
+					"sid": 887680632114661,
+					"behaviorType": "Flash",
+					"parameters": {
+						"on-time": "0.1",
+						"off-time": "0.1",
+						"duration": "0.5"
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 425608242771988,
+					"parameters": {
+						"variable": "Lives",
+						"value": "0"
+					}
+				}
+			],
+			"sid": 493638175029523
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-created",
+					"objectClass": "Hero",
+					"sid": 342529779294577
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Hero",
+					"sid": 321118822325653,
+					"parameters": {
+						"animation": "\"Standing\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 151290211199303
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "L2_Golem5",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-on-screen",
+							"objectClass": "Enemy5",
+							"sid": 121490222736737
+						}
+					],
+					"actions": [],
+					"sid": 819580475012032,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "Enemy5",
+									"sid": 898772662502577,
+									"parameters": {
+										"instance-variable": "Move",
+										"comparison": 0,
+										"value": "1"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "simulate-control",
+									"objectClass": "Enemy5",
+									"sid": 943081759655306,
+									"behaviorType": "Platform",
+									"parameters": {
+										"control": "right"
+									}
+								}
+							],
+							"sid": 281065475437765,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "is-by-wall",
+											"objectClass": "Enemy5",
+											"sid": 436283740351516,
+											"behaviorType": "Platform",
+											"parameters": {
+												"side": "right"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "set-instvar-value",
+											"objectClass": "Enemy5",
+											"sid": 622572673657827,
+											"parameters": {
+												"instance-variable": "Move",
+												"value": "-1"
+											}
+										}
+									],
+									"sid": 471074306183590
+								}
+							]
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Enemy5",
+							"sid": 933355879011920,
+							"parameters": {
+								"instance-variable": "Move",
+								"comparison": 0,
+								"value": "-1"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "Enemy5",
+							"sid": 539185015859498,
+							"behaviorType": "Platform",
+							"parameters": {
+								"control": "left"
+							}
+						}
+					],
+					"sid": 518261218279156,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "is-by-wall",
+									"objectClass": "Enemy5",
+									"sid": 954231574134705,
+									"behaviorType": "Platform",
+									"parameters": {
+										"side": "left"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-instvar-value",
+									"objectClass": "Enemy5",
+									"sid": 885178939145204,
+									"parameters": {
+										"instance-variable": "Move",
+										"value": "1"
+									}
+								}
+							],
+							"sid": 355134621500344
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Enemy5",
+							"sid": 985772798533635,
+							"parameters": {
+								"instance-variable": "Move",
+								"comparison": 0,
+								"value": "1"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-mirrored",
+							"objectClass": "Enemy5",
+							"sid": 390079604996375,
+							"parameters": {
+								"state": "not-mirrored"
+							}
+						}
+					],
+					"sid": 975188116540488
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Enemy5",
+							"sid": 781559264494340,
+							"parameters": {
+								"instance-variable": "Move",
+								"comparison": 0,
+								"value": "-1"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-mirrored",
+							"objectClass": "Enemy5",
+							"sid": 253315772006605,
+							"parameters": {
+								"state": "mirrored"
+							}
+						}
+					],
+					"sid": 511170893736904
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-created",
+							"objectClass": "Enemy5",
+							"sid": 943807479352848
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "Enemy5",
+							"sid": 701181972849540,
+							"parameters": {
+								"animation": "\"Walking\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 716346136236717
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Kunai",
+							"sid": 918523491458714,
+							"parameters": {
+								"object": "Enemy5"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "Enemy5",
+							"sid": 990220997054695,
+							"parameters": {
+								"animation": "\"Dying\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Kunai",
+							"sid": 463250793958653
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 851682170082890,
+							"parameters": {
+								"seconds": "1"
+							}
+						},
+						{
+							"id": "spawn-another-object",
+							"objectClass": "Enemy5",
+							"sid": 931796260273335,
+							"parameters": {
+								"object": "Monstersmoke",
+								"layer": "0",
+								"image-point": "0",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Enemy5",
+							"sid": 462960932475906
+						}
+					],
+					"sid": 170733032582689
+				}
+			],
+			"sid": 706040863624897
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Kunai",
+					"sid": 820557595158710,
+					"parameters": {
+						"object": "Virus2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Virus2",
+					"sid": 818384219093706,
+					"parameters": {
+						"object": "Monstersmoke",
+						"layer": "0",
+						"image-point": "0",
+						"create-hierarchy": false
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Virus2",
+					"sid": 535500456105943
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Kunai",
+					"sid": 860979799382431
+				}
+			],
+			"sid": 637422515957282
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-created",
+					"objectClass": "Kunai",
+					"sid": 166533426822227
+				}
+			],
+			"actions": [],
+			"sid": 985747237743319,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-mirrored",
+							"objectClass": "Hero",
+							"sid": 746095079887843
+						}
+					],
+					"actions": [
+						{
+							"id": "set-angle",
+							"objectClass": "Kunai",
+							"sid": 376636469664080,
+							"parameters": {
+								"angle": "180"
+							}
+						}
+					],
+					"sid": 307179078241248
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "collisions-enabled",
+					"objectClass": "Kunai",
+					"sid": 727433619673798
+				}
+			],
+			"actions": [],
+			"sid": 966387584189283,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Kunai",
+							"sid": 823191060639845,
+							"parameters": {
+								"object": "Barrel"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Kunai",
+							"sid": 103601534825914
+						},
+						{
+							"id": "spawn-another-object",
+							"objectClass": "Barrel",
+							"sid": 455281447859734,
+							"parameters": {
+								"object": "explosion",
+								"layer": "0",
+								"image-point": "0",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Barrel",
+							"sid": 522778033148405
+						}
+					],
+					"sid": 853508993381913
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Kunai",
+							"sid": 306192936759716,
+							"parameters": {
+								"object": "Barrel2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Kunai",
+							"sid": 300917980248814
+						},
+						{
+							"id": "spawn-another-object",
+							"objectClass": "Barrel2",
+							"sid": 649616391489972,
+							"parameters": {
+								"object": "explosion",
+								"layer": "0",
+								"image-point": "0",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Barrel2",
+							"sid": 999614293631791
+						}
+					],
+					"sid": 115081482387150
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Kunai",
+							"sid": 503172577331867,
+							"parameters": {
+								"object": "Spike"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Kunai",
+							"sid": 510755298659757
+						}
+					],
+					"sid": 947594564518176
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Kunai",
+							"sid": 380776465869493,
+							"parameters": {
+								"object": "Saw"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Kunai",
+							"sid": 994844866385008
+						}
+					],
+					"sid": 815895859936930
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Kunai",
+							"sid": 517267928238485,
+							"parameters": {
+								"object": "Saw2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Kunai",
+							"sid": 909029981107921
+						}
+					],
+					"sid": 549884647845008
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Kunai",
+							"sid": 401516392334676,
+							"parameters": {
+								"object": "Box"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Kunai",
+							"sid": 895487735872973
+						}
+					],
+					"sid": 816994342223835
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Hero",
+					"sid": 740959337550987,
+					"parameters": {
+						"object": "Vaccine"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Hero",
+					"sid": 411504282659522,
+					"parameters": {
+						"object": "Shieldsmoke",
+						"layer": "0",
+						"image-point": "0",
+						"create-hierarchy": false
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Vaccine",
+					"sid": 304213219403237
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 149169392981343,
+					"parameters": {
+						"variable": "Lives",
+						"value": "1"
+					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 670733515156499,
+					"parameters": {
+						"variable": "Levelscore",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 751319941816974
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Hero",
+					"sid": 993407268423300,
+					"parameters": {
+						"object": "Virus2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Virus2",
+					"sid": 767786098968753,
+					"parameters": {
+						"object": "Monstersmoke",
+						"layer": "0",
+						"image-point": "0",
+						"create-hierarchy": false
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Virus2",
+					"sid": 124045656026370
+				},
+				{
+					"id": "flash",
+					"objectClass": "Hero",
+					"sid": 442749183328294,
+					"behaviorType": "Flash",
+					"parameters": {
+						"on-time": "0.1",
+						"off-time": "0.1",
+						"duration": "0.5"
+					}
+				},
+				{
+					"id": "subtract-from-eventvar",
+					"objectClass": "System",
+					"sid": 402161543210136,
+					"parameters": {
+						"variable": "Lives",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 179696458504089
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Hero",
+					"sid": 995953979785646,
+					"parameters": {
+						"object": "Spike"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "flash",
+					"objectClass": "Hero",
+					"sid": 916294449520410,
+					"behaviorType": "Flash",
+					"parameters": {
+						"on-time": "0.1",
+						"off-time": "0.1",
+						"duration": "0.5"
+					}
+				},
+				{
+					"id": "subtract-from-eventvar",
+					"objectClass": "System",
+					"sid": 482598291471220,
+					"parameters": {
+						"variable": "Lives",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 250735072929439
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Hero",
+					"sid": 827214367525417,
+					"parameters": {
+						"object": "spikes"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "flash",
+					"objectClass": "Hero",
+					"sid": 586662386109585,
+					"behaviorType": "Flash",
+					"parameters": {
+						"on-time": "0.1",
+						"off-time": "0.1",
+						"duration": "0.5"
+					}
+				},
+				{
+					"id": "subtract-from-eventvar",
+					"objectClass": "System",
+					"sid": 680991855853334,
+					"parameters": {
+						"variable": "Lives",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 644245827222520
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Hero",
+					"sid": 494038509378655,
+					"parameters": {
+						"object": "Saw"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "flash",
+					"objectClass": "Hero",
+					"sid": 418197356174997,
+					"behaviorType": "Flash",
+					"parameters": {
+						"on-time": "0.1",
+						"off-time": "0.1",
+						"duration": "0.5"
+					}
+				},
+				{
+					"id": "subtract-from-eventvar",
+					"objectClass": "System",
+					"sid": 368715824705408,
+					"parameters": {
+						"variable": "Lives",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 211352941718304
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Hero",
+					"sid": 761412321907765,
+					"parameters": {
+						"object": "Saw2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "flash",
+					"objectClass": "Hero",
+					"sid": 385701425662686,
+					"behaviorType": "Flash",
+					"parameters": {
+						"on-time": "0.1",
+						"off-time": "0.1",
+						"duration": "0.5"
+					}
+				},
+				{
+					"id": "subtract-from-eventvar",
+					"objectClass": "System",
+					"sid": 170078709283745,
+					"parameters": {
+						"variable": "Lives",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 333161226778102
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 520167645220749
+				}
+			],
+			"actions": [],
+			"sid": 586425006928096,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 453995336870193,
+							"parameters": {
+								"variable": "Music"
+							}
+						}
+					],
+					"actions": [],
+					"sid": 882399089857049
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 403494735138379,
+							"parameters": {
+								"variable": "Music"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 496626085538254,
+							"parameters": {
+								"audio-file": "Actium - I Need You (1)",
+								"loop": "looping",
+								"volume": "-10",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 326510462371485
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 709239495620777,
+					"parameters": {
+						"object": "Music"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-silent",
+					"objectClass": "Audio",
+					"sid": 289154329128471,
+					"parameters": {
+						"mode": "toggle-silent"
+					}
+				}
+			],
+			"sid": 470843691711364
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 821925332184330,
+					"parameters": {
+						"object": "Home"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 447110903741250,
+					"parameters": {
+						"layout": "Main Menu"
+					}
+				}
+			],
+			"sid": 644312375941985
+		}
+	],
+	"sid": 623880662030559
+}
