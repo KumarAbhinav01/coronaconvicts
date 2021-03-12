@@ -1,0 +1,49 @@
+{
+	"name": "Idle__",
+	"plugin-id": "Sprite",
+	"sid": 601947801743883,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 214,
+						"height": 223,
+						"originX": 0.5467289719626168,
+						"originY": 0.9887892376681614,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4652858,
+						"collisionPoly": {
+							"points": [
+								0.004672897196261682,
+								0.004484304932735426,
+								1,
+								0.004484304932735426,
+								1,
+								1,
+								0.004672897196261682,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 560118046546456,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

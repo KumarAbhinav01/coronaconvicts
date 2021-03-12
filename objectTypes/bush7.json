@@ -1,0 +1,37 @@
+{
+	"name": "Bush7",
+	"plugin-id": "Sprite",
+	"sid": 846003671032021,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 73,
+						"height": 47,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6336756,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 649329518546244,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

@@ -1,0 +1,26 @@
+{
+	"name": "L2T9",
+	"plugin-id": "TiledBg",
+	"sid": 780480312302094,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 317988315657532
+		}
+	],
+	"effectTypes": [],
+	"image": {
+		"width": 128,
+		"height": 128,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 2143499,
+		"useCollisionPoly": true
+	}
+}

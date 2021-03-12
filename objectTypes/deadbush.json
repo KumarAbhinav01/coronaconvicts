@@ -1,0 +1,55 @@
+{
+	"name": "DeadBush",
+	"plugin-id": "Sprite",
+	"sid": 254741097467306,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 265708407196384
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 134,
+						"height": 76,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3091723,
+						"collisionPoly": {
+							"points": [
+								0.12935323383084577,
+								0.24122807017543868,
+								0.601990049751243,
+								0.04385964912280714,
+								0.9925373134328358,
+								0.9868421052631579,
+								0,
+								0.9824561403508771
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 876980754730276,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
