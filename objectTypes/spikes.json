@@ -1,0 +1,20 @@
+{
+	"name": "spikes",
+	"plugin-id": "TiledBg",
+	"sid": 870191260310313,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"image": {
+		"width": 255,
+		"height": 174,
+		"originX": 0.5019607843137255,
+		"originY": 0.735632183908046,
+		"originalSource": "",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 390064,
+		"useCollisionPoly": true
+	}
+}

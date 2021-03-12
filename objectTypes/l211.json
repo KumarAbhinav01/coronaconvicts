@@ -1,0 +1,26 @@
+{
+	"name": "L211",
+	"plugin-id": "TiledBg",
+	"sid": 629431188068021,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 276654197948037
+		}
+	],
+	"effectTypes": [],
+	"image": {
+		"width": 128,
+		"height": 128,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 5098033,
+		"useCollisionPoly": true
+	}
+}

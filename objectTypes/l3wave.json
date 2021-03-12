@@ -1,0 +1,26 @@
+{
+	"name": "L3Wave",
+	"plugin-id": "TiledBg",
+	"sid": 296531913376557,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 256150349633718
+		}
+	],
+	"effectTypes": [],
+	"image": {
+		"width": 128,
+		"height": 99,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 6102886,
+		"useCollisionPoly": true
+	}
+}

@@ -1,0 +1,60 @@
+{
+	"name": "Saw",
+	"plugin-id": "Sprite",
+	"sid": 755035137618963,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Rotate",
+			"name": "Rotate",
+			"sid": 101202433561537
+		},
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 751936421824393
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 357,
+						"height": 361,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9954601,
+						"collisionPoly": {
+							"points": [
+								0.07282913165266106,
+								0.18282548476454297,
+								0.6358543417366953,
+								0.038781163434903045,
+								1,
+								0.6011080332409982,
+								0.1792717086834734,
+								0.9224376731301944
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 736867517011469,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

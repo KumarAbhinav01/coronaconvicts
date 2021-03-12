@@ -1,0 +1,26 @@
+{
+	"name": "L4T6",
+	"plugin-id": "TiledBg",
+	"sid": 359782376688892,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 862435242781783
+		}
+	],
+	"effectTypes": [],
+	"image": {
+		"width": 128,
+		"height": 93,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 16187,
+		"useCollisionPoly": true
+	}
+}

@@ -1,0 +1,49 @@
+{
+	"name": "—Pngtree—vaccineAndInjectionSyringeFor_",
+	"plugin-id": "Sprite",
+	"sid": 703166624682582,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 736,
+						"height": 991,
+						"originX": 0.36413043478260865,
+						"originY": 0.49646821392532803,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 497662,
+						"collisionPoly": {
+							"points": [
+								0.4673913043478267,
+								0.4117053481331989,
+								1,
+								0,
+								0.5760869565217385,
+								0.5681130171543889,
+								0,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 521079811497064,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

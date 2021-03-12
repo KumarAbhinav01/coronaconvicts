@@ -1,0 +1,32 @@
+{
+	"name": "Shieldsmoke",
+	"plugin-id": "Particles",
+	"sid": 556923549321910,
+	"isGlobal": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"image": {
+		"width": 443,
+		"height": 481,
+		"originX": 0.4966139954853273,
+		"originY": 0.5343035343035343,
+		"originalSource": "",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 6108628,
+		"collisionPoly": {
+			"points": [
+				0,
+				0.002079002079002079,
+				1,
+				0.002079002079002079,
+				1,
+				1,
+				0,
+				1
+			]
+		},
+		"useCollisionPoly": true
+	}
+}

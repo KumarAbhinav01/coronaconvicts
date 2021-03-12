@@ -1,0 +1,65 @@
+{
+	"name": "Saw2",
+	"plugin-id": "Sprite",
+	"sid": 937051732584033,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 683837141584174
+		},
+		{
+			"behaviorId": "Orbit",
+			"name": "Orbit",
+			"sid": 270437407059705
+		},
+		{
+			"behaviorId": "Rotate",
+			"name": "Rotate",
+			"sid": 998686214180534
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 357,
+						"height": 361,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9448211,
+						"collisionPoly": {
+							"points": [
+								0.10084033613445378,
+								0.08864265927977842,
+								0.8487394957983199,
+								0.09418282548476453,
+								0.9159663865546221,
+								0.8725761772853189,
+								0.12885154061624646,
+								0.9058171745152361
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 770055142904732,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

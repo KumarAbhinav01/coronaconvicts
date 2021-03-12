@@ -1,0 +1,20 @@
+{
+	"name": "Monstersmoke",
+	"plugin-id": "Particles",
+	"sid": 879382434232366,
+	"isGlobal": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"image": {
+		"width": 250,
+		"height": 250,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 998707,
+		"useCollisionPoly": true
+	}
+}
