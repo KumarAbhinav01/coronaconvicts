@@ -63,13 +63,8 @@ Trap Movement | Construct 3 sine and rotation behaviour
 <li>Link to pitch: https://youtu.be/VeLcxWsH8zo <br></li>
 
 
-![Demo1](https://github.com/ReanSchwarzer1/Covid-AR-Shooting-RL/blob/main/Images/game.gif "Demo1")
-![temp (1)](https://user-images.githubusercontent.com/42490058/110345792-f3279d80-8054-11eb-80e6-de8856f7c83c.gif)
-![temp (2)](https://github.com/ReanSchwarzer1/Covid-AR-Shooting-RL/blob/main/Images/gg.gif)
-
-
 <h2 align="left"> Instructions </h2>  
-<li>Download and install the .apk file to run on an ARCore supported android device.<br></li>
+<li>Download and install the .apk file to run on your android device.<br></li>
 <li>For PC, just click on the .exe file inside build.<br></li>
 
 </body>
