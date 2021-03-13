@@ -61,6 +61,8 @@ Trap Movement | Construct 3 sine and rotation behaviour
 <h2 align="left"> Working Demo </h2>  
 <li>Link to gameplay video:https://youtu.be/VeLcxWsH8zo <br></li>
 <li>Link to pitch: https://youtu.be/VeLcxWsH8zo <br></li>
+<li>Link to thesis: https://drive.google.com/file/d/1ASrBhINphmVhq2zgKr94LtpNoou1wsDG/view?usp=sharing <br></li>
+
 
 
 <h2 align="left"> Instructions </h2>  
