@@ -20,7 +20,7 @@ FEBRUARY 12- MARCH 12
 <li>In an attempt to fight the virus, this hackathon is being hosted to encourage and develop innovative games that address issues faced by people during the pandemic. Organized by St. Francis College for Women and HEART Hyderabad through a grant from the U.S. Consulate General Hyderabad. Hosted by Angelhack. </li>
 </br>
 WHAT IT’S ALL ABOUT
-<li>The aim of this Gameathon is to raise awareness about the challenges caused by the pandemic whilst offering solutions that might help people stay safe.<li>
+<li>The aim of this Gameathon is to raise awareness about the challenges caused by the pandemic whilst offering solutions that might help people stay safe.</li>
 
 <h2 align="left"> The Problem Statement </h2>  
 In an attempt to fight the virus, this hackathon calls upon developers to create innovative games that address issues faced by people during the pandemic. We are supposed to design a game that will help bring about awareness about the on going pandemic.
@@ -46,25 +46,21 @@ Shield effect |  Construct 3 particle affect with custom effect
 Trap Movement | Construct 3 sine and rotation behaviour
 
 
-<h2 align="left"> Game Design </h2>  
-<li>The player is equipped with a sanitizer gun which is used to shoot the virus particles.<br></li>
-<li>If the player comes in contact with a particle, it will respawn. <br></li>
-<li>Going too close to the particle  reduces players health. <br></li>
-<li>Shooting other players with sanitizer results in the increase of health but approaching another player results in the violation of social distance. <br></li>
-<li>Masks are present and collecting them increases health of the player. <br></li>
-<li>The Reinforced Learned COVID particles have a win/lose reward state which makes the floor red in the player infected state and green if the player successfully evades the particles. <br></li>
-<li>As a survivalistic aspect, only the other players can view your player’s health and vice versa that enables them to help each other to fend off against the onslaught of COVID virus cells. <br></li>
+<h2 align="left"> ABOUT THE PLATFORM </h2>  
+<li>We have developed our game with Construct 3 software. Construct 3 basically a game making software with the help of which we can create 2D games. <br></li>
+<li>Our main point of choosing Construct 3 is that it a browser based software and therefore we don't need a high end PC/laptop. And the team collaboration is also amazing. <br></li>
+<li>With construct 3 we can access our game from anywhere and on any device. This also supports offline editing which means we don't even need internet connection all the time for making game. <br></li>
+<li>One another and most important feature is that it includes multi platform deployment option. Which means we can export our game for Android, iphone, Windows, Mac and even for xbox, Facebook instant game and HTML5 games. <br></li>
 
 
-<h2 align="left"> Platforms and features </h2>  
+<h2 align="left"> Platforms and features required</h2>  
 <li>Microsoft Windows<br></li>
-<li>Android 7.0 and above (ARCore supported devices only)<br></li>
+<li>Android 5.0 and above <br></li>
 
 
 <h2 align="left"> Working Demo </h2>  
-<li>Link to gameplay video:https://youtu.be/eyI4ssMxbvU <br></li>
-<li>Link to training demo: https://youtu.be/OmE1qjR9-T0 <br></li>
-<li>Link to pitch: https://youtu.be/kwSkf1Cn35Y <br></li>
+<li>Link to gameplay video:https://youtu.be/VeLcxWsH8zo <br></li>
+<li>Link to pitch: https://youtu.be/VeLcxWsH8zo <br></li>
 
 
 ![Demo1](https://github.com/ReanSchwarzer1/Covid-AR-Shooting-RL/blob/main/Images/game.gif "Demo1")
