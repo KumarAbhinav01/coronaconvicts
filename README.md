@@ -2,7 +2,7 @@
 <html>
 <body>
 <h1 align="center"> Coronna Convicts </h1> 
-  Save your city and fellow citizens from the deadly corona virus</br>
+<br>Save your city and fellow citizens from the deadly corona virus</br>
   
 <img src="https://github.com/Abhi6722/coronaconvicts/blob/main/icons/icon-512.png" width="300" height="300" align="centre"> 
 
@@ -12,8 +12,8 @@
 <h2 align="left"> This project was made in purpose for the Covid-19 Gameathon organized by Angelhack. </h2>  
 The repository contains both the PC and the android build.
 <li>The PC build can be found inside the Build folder.<br></li>
-<li>The .apk file for the AR build can be found inside the Build_Android_APK.rar file which in turn is inside the Build_Android_APK folder.<br></li>
-<li>The .apk file for the AR build can also be found in the github releases page related to the repository.<br></li>
+<li>Download the .apk file from here https://drive.google.com/file/d/1QBrpZUhd4ke0KyBKy3lhQbDctnCGhigV/view?usp=sharing <br></li>
+<li>Simply download and enjoy the game and spread love and awareness.<br></li>
 
 <h2 align="left"> COVID-19 GAMEATHON </h2> </br>
 FEBRUARY 12- MARCH 12
@@ -24,7 +24,7 @@ WHAT IT’S ALL ABOUT
 
 <h2 align="left"> The Problem Statement </h2>  
 In an attempt to fight the virus, this hackathon calls upon developers to create innovative games that address issues faced by people during the pandemic. We are supposed to design a game that will help bring about awareness about the on going pandemic.
-
+w3sc
 
 <h2 align="left"> Solution </h2>  
 Our main objective it to promote social distancing and also to dismiss any misconceptions that people have developed over the new vaccine which has developed by India. We have analysed a few papers and have found that many people are not willing to take the vaccine. Through our game we want to promote the use of sanitizers , social distancing and preach the importance of vaccination.
