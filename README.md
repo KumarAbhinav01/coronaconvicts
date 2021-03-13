@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <body>
-<h1 align="center"> Coronna Convicts 
-</h1> <img src="https://github.com/ReanSchwarzer1/Covid-AR-Shooting-RL/blob/main/Images/antiviRL.png" width="300" height="300" align="right" align="top"> 
-
+<h1 align="center"> Coronna Convicts </h1> 
 Save your city and fellow citizens from the deadly corona virus
+<img src="https://github.com/Abhi6722/coronaconvicts/blob/main/icons/icon-512.png" width="300" height="300" align="centre" align="top"> 
+
 
 
 
