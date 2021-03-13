@@ -12,7 +12,7 @@
 <h2 align="left"> This project was made in purpose for the Covid-19 Gameathon organized by Angelhack. </h2>  
 The repository contains both the PC and the android build.
 <li>The PC build can be found inside the Build folder.<br></li>
-<li>Download the .apk file from here https://drive.google.com/file/d/1QBrpZUhd4ke0KyBKy3lhQbDctnCGhigV/view?usp=sharing <br></li>
+<li>Download the .apk file from here https://drive.google.com/file/d/1_ymz7Hpy7qtkUDeTafNqJLQqK6rLLjwN/view?usp=sharing <br></li>
 <li>Simply download and enjoy the game and spread love and awareness.<br></li>
 
 <h2 align="left"> COVID-19 GAMEATHON </h2> </br>
@@ -59,7 +59,7 @@ Trap Movement | Construct 3 sine and rotation behaviour
 
 
 <h2 align="left"> Working Demo </h2>  
-<li>Link to Game(Android) :https://drive.google.com/file/d/1QBrpZUhd4ke0KyBKy3lhQbDctnCGhigV/view?usp=sharing <br></li>
+<li>Link to Game(Android): https://drive.google.com/file/d/1_ymz7Hpy7qtkUDeTafNqJLQqK6rLLjwN/view?usp=sharing <br></li>
 <li>Link to pitch: https://youtu.be/VeLcxWsH8zo <br></li>
 <li>Link to thesis: https://drive.google.com/file/d/1ASrBhINphmVhq2zgKr94LtpNoou1wsDG/view?usp=sharing <br></li>
 
@@ -71,11 +71,3 @@ Trap Movement | Construct 3 sine and rotation behaviour
 
 </body>
 </html>
-
-
-
-
-
-
-
-
