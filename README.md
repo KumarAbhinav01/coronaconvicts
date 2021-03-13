@@ -16,7 +16,7 @@ The repository contains both the PC and the android build.
 <li>The .apk file for the AR build can also be found in the github releases page related to the repository.<br></li>
 
 <h2 align="left"> COVID-19 GAMEATHON </h2> </br>
-<li>FEBRUARY 12- MARCH 12 </li>
+FEBRUARY 12- MARCH 12
 <li>In an attempt to fight the virus, this hackathon is being hosted to encourage and develop innovative games that address issues faced by people during the pandemic. Organized by St. Francis College for Women and HEART Hyderabad through a grant from the U.S. Consulate General Hyderabad. Hosted by Angelhack. </li>
 </br>
 WHAT IT’S ALL ABOUT
@@ -30,23 +30,21 @@ In an attempt to fight the virus, this hackathon calls upon developers to create
 Our main objective it to promote social distancing and also to dismiss any misconceptions that people have developed over the new vaccine which has developed by India. We have analysed a few papers and have found that many people are not willing to take the vaccine. Through our game we want to promote the use of sanitizers , social distancing and preach the importance of vaccination.
 
 
-<h2 align="left"> Game Concept </h2>  
-The game includes:
-<li>Pseudo 2nd person perspective gameplay<br></li>
-<li>RL trained enemy virus cells that reduce health of player whilst in proximity<br></li>
-<li>Photon API powered multiplayer features<br></li>
-<li>Oh yeah, there is an AR version as well<br></li>
+<h2 align="left"> INTRODUCTION TO GAME </h2>  
+
+<li>The main character has to avoid all the obstacles present in each level and has to jump on the floating islands  avoiding  the monsters and the viruses. Here the monster represent the more virulent and  deadly  covid strain and the virus the less virulent strain by doing so we have stressed on the different strains which have been found we could not add a few features due to the lack of time however in future we can incorporate all the possible strains .</li>
+<li>We have also incorporated vaccine as a weapon as vaccination is the only way we can free our society of this pandemic. We have also kept the gameplay experience easy to understand so that even a kid who is only 5 years old can easily play corona convicts.</li>
+<li>The main character has to collect vaccine and inject it to the monster to destroy it and in this process he also has to avoid the virus . If he comes in contact with the virus it would cause him to lose life in the game. If he collects vaccine he would gain life . In this game the user is provided with 5 lives and if he exhausts all of them he will lose the game. He has to collect the vaccine and avoid virus keeping at least one life intact in order to win.</li>
 
 <h2 align="left"> Tech Stack </h2>  
 
 Purpose | Tool
 ------- | -------
-Character and Enemy Movement | Unity 2020.4 LTS
-Enemy Training  | Unity ML Agents
-Enemy, Character and interactable models |  Blender
-Multiplayer Integration | Photon API (PUN 2)
-AR Integration | Unity Engine x AR Foundation
-UI Implementation |  Unity UI x Affinity Designer
+Character and Enemy Movement | Construct 3 platform movements
+Character Animation  | Construct 3 character animation sets
+Shield effect |  Construct 3 particle affect with custom effect 
+Trap Movement | Construct 3 sine and rotation behaviour
+
 
 <h2 align="left"> Game Design </h2>  
 <li>The player is equipped with a sanitizer gun which is used to shoot the virus particles.<br></li>
