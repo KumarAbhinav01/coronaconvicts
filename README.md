@@ -2,23 +2,33 @@
 <html>
 <body>
 <h1 align="center"> Coronna Convicts </h1> 
-Save your city and fellow citizens from the deadly corona virus
-<img src="https://github.com/Abhi6722/coronaconvicts/blob/main/icons/icon-512.png" width="300" height="300" align="centre" align="top"> 
+  Save your city and fellow citizens from the deadly corona virus</br>
+  
+<img src="https://github.com/Abhi6722/coronaconvicts/blob/main/icons/icon-512.png" width="300" height="300" align="centre"> 
 
 
 
 
 <h2 align="left"> This project was made in purpose for the Covid-19 Gameathon organized by Angelhack. </h2>  
-The repository contains both the PC and the android AR build.
+The repository contains both the PC and the android build.
 <li>The PC build can be found inside the Build folder.<br></li>
 <li>The .apk file for the AR build can be found inside the Build_Android_APK.rar file which in turn is inside the Build_Android_APK folder.<br></li>
 <li>The .apk file for the AR build can also be found in the github releases page related to the repository.<br></li>
 
+<h2 align="left"> COVID-19 GAMEATHON </h2> </br>
+<li>FEBRUARY 12- MARCH 12 </li>
+<li>In an attempt to fight the virus, this hackathon is being hosted to encourage and develop innovative games that address issues faced by people during the pandemic. Organized by St. Francis College for Women and HEART Hyderabad through a grant from the U.S. Consulate General Hyderabad. Hosted by Angelhack. </li>
+</br>
+WHAT IT’S ALL ABOUT
+<li>The aim of this Gameathon is to raise awareness about the challenges caused by the pandemic whilst offering solutions that might help people stay safe.<li>
+
 <h2 align="left"> The Problem Statement </h2>  
 In an attempt to fight the virus, this hackathon calls upon developers to create innovative games that address issues faced by people during the pandemic. We are supposed to design a game that will help bring about awareness about the on going pandemic.
 
+
 <h2 align="left"> Solution </h2>  
-Our game takes the essentials of hygiene practices such as frequent sanitizing, social distancing, protecting oneself with a mask etc. into a fun and exciting PC and mobile FPS, surviving with the help of others (yes, it is a multiplayer through and through, without the support for others, the game will end a little too quick) and fending against the swarms of COVID virus cells and each other.
+Our main objective it to promote social distancing and also to dismiss any misconceptions that people have developed over the new vaccine which has developed by India. We have analysed a few papers and have found that many people are not willing to take the vaccine. Through our game we want to promote the use of sanitizers , social distancing and preach the importance of vaccination.
+
 
 <h2 align="left"> Game Concept </h2>  
 The game includes:
