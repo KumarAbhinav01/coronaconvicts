@@ -53,7 +53,6 @@ Trap Movement | Construct 3 sine and rotation behaviour
 
 
 <h2 align="left"> Platforms and features required</h2>  
-<li>Microsoft Windows<br></li>
 <li>Android 5.0 and above <br></li>
 
 
